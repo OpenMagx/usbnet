@@ -576,6 +576,12 @@ static const struct usb_device_id	products [] = {
 			USB_CDC_SUBCLASS_MDLM, USB_CDC_PROTO_NONE),
 	.driver_info		= 0,
 },
+{
+	/* Motorola MOTOMAGX phones */
+	USB_DEVICE_AND_INTERFACE_INFO(0x22b8, 0x6424, USB_CLASS_COMM,
+			USB_CDC_SUBCLASS_MDLM, USB_CDC_PROTO_NONE),
+	.driver_info = 0,
+},
 
 /*
  * WHITELIST!!!
