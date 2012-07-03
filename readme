@@ -7,3 +7,8 @@ motorola magx手机在不能通过usbnet方式连接linux 3.0及以上的内核�
 	3.sudo make install
 	
 zn5手机在ubuntu 12.04测试成功
+
+连接手机方法：
+	1.在手机上的终端执行 ifconfig usbl0 192.168.16.2
+	2.连接电脑到手机
+	3.enjoy telnet、samba、webserver！
